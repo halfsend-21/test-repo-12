@@ -1,0 +1,9 @@
+ops:
+    - description: Emit retro JSON
+      op: write_fixture
+      args: output/agent-result.json, fixtures/retro/summary.json
+      content: |
+        {
+          "summary": "Behaviour smoke: retro completed with no proposals.",
+          "proposals": []
+        }
